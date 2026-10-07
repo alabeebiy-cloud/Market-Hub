@@ -1,0 +1,97 @@
+* {
+  margin: 2px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+
+.logo {
+  margin-bottom: 60px;
+}
+
+.f-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #1877f2;
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 16px 18px;
+  border: 1px solid #dddfe2;
+  border-radius: 50px;          /* Fully rounded like the image */
+  font-size: 16px;
+  outline: none;
+  background: #fff;
+}
+
+.login-form input:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.login-form input::placeholder {
+  color: #8a8d91;
+}
+
+
+.login-btn {
+  width: 100%;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.login-btn:hover {
+  background-color: #166fe5;
+}
+
+.forgot {
+  display: block;
+  margin-top: 28px;
+  color: #1c1e21;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
